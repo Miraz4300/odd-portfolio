@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<style>
+body {
+  font-family: monospace;
+  background-color: black;
+  color: white;
+}
+h1 {
+  margin-left: 2ex;
+}
+a:link {
+  color: cyan;
+}
+a:visited {
+  color: magenta;
+}
+.header h1 {
+  margin-right: 2ex;
+}
+.section {
+  display: relative;
+  min-height: 20ex;
+  margin-bottom: 2em;
+}
+.section .label {
+  transform: rotate(-90deg) translate(-10ex,-10ex);
+  width: 20ex;
+  margin-left: 0.5em;
+  margin-top: 1em;
+  background-color: purple;
+  text-align: center;
+}
+.section .label a:link, .section .label a:visited {
+  color: white;
+  text-decoration: none;
+}
+.section .sublabel {
+  background-color: teal;
+  color: purple;
+}
+.section .content {
+  margin-left: 1.5em;
+}
+.section .content .project {
+  display: inline-block;
+  width: 200px;
+  text-align: center;
+  vertical-align: top;
+  margin-bottom: 1em;
+  margin-top: -9px;
+  border: 1px solid transparent;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.section .content .project .img {
+  height: 80px;
+}
+.section .content .project .img img {
+  width: 120px;
+}
+.section .content .project .link a:link, .section .content .project .link a:visited {
+  background-color: #509;
+  padding: 5px;
+  text-decoration: none;
+}
+.section .cv {
+  min-height: 20ex;
+}
+.section .cv li {
+  margin-bottom: 0.5em;
+}
+.section .cv.employment li {
+  margin-bottom: 2em;
+}
+.section .cv .desc {
+  margin-left: 2ex;
+  margin-top: 0.3em;
+  color: cyan;
+}
+.section .cv .tech {
+  display: inline-block;
+  margin-left: 2ex;
+  background-color: purple;
+  color: white;
+  padding: 0.5ex;
+  margin-top: 0.5em;
+}
+
+</style>
+</head>
+<body>
+<a name="Curriculum vitae"></a>
+<div class="section">
+<div class="label"><a href="Curriculum-vitae.html">curriculum vitae</a></div>
+<div class="content">
+<div class="header">
+<h1 style="display:inline-block">Md. Miraz Hossain</h1>
+miraz4300@gmail.com
+</div>
+
+<div class="label sublabel"><a href="Curriculum-vitae.html#cv-employment">employment</a></div>
+<ul class="cv employment">
+  <li>
+    <div>2016 Annex Worldwide Ltd.</div>
+    <div class="desc">
+      junior backend engineer, document centric web developer
+    </div>
+    <div class="desc">
+      server administrator
+    </div>
+    <div class="tech">ghost|js|asp.net|kubernetes|p2p-vpn</div>
+  </li>
+  <li>
+    <div>2018 freelance</div>
+    <div class="desc">
+      networking,
+      linux administration,
+      cloud architecture solution
+    </div>
+    <div class="tech">ubuntu|aws|azure|docker|shell|nginx</div>
+  </li>
+</ul>
+
+<div class="label sublabel"><a href="Curriculum-vitae.html#cv-experience">experience</a></div>
+<ul class="cv projects">
+  <li>published <a href="https://github.com/miraz4300">10+</a>
+    open source repositories and projects</li>
+  <li>devops server, azure pipeline, code server ecosystems</li>
+  <li>
+    <a href="https://p2pvpn.deepspacelab.dev/">p2p vpn</a>
+    for secure communication used by annex ltd. developers
+  </li>
+  <li>
+    private documentation based on
+    <a href="https://docs.deepspacelab.dev/">ghost org</a> for internal developers 
+  </li>
+  <li>
+    <a href="https://blob.deepspacelab.dev/">cdn systems</a>
+    for raw data deliver
+  </li>
+  <li>
+    custom <a href="https://dns.deepspacelab.dev/">docker dns server</a> with adblock & voice assistant integration
+  </li>
+  <li>
+    ibm quiskit learner
+  </li>
+  <li>
+    wsl data science virtual machine with jupyterhub, cuda & tensorflow
+  </li>
+</ul>
+</div>
+</div>
+
+<a name="projects"></a>
+<div class="section">
+<div class="label"><a href="Curriculum-vitae.html#projects">projects</a></div>
+<div class="content">
+  <div class="project">
+    <div class="img">
+      <a href="https://github.com/miraz4300?tab=repositories"><img style="margin-top:10px;" src="./images/github.svg"></a>
+    </div>
+    <div class="link">
+      <a href="https://github.com/miraz4300?tab=repositories">github/miraz4300</a>
+    </div>
+  </div>
+  <div class="project">
+    <div class="img">
+      <a href="https://dns.deepspacelab.dev/"><img style="margin-top:-3px;" src="./images/pi-hole.png"></a>
+    </div>
+    <div class="link">
+      <a href="https://dns.deepspacelab.dev/"> dns|adblock|vai</a>
+    </div>
+  </div>
+<div class="project">  
+  <div class="img">
+    <a href="https://docs.deepspacelab.dev/"><img style="margin-top:10px;" src="./images/ghost.png" width="200px"></a>
+  </div>
+  <div class="link">
+    <a href="https://docs.deepspacelab.dev/">ghost-docs</a>
+  </div>
+</div>
+<div class="project">
+  <div class="img">
+    <a href="https://sites.google.com/view/hydrams/"><img src="./images/hydra.jpg"></a>
+  </div>
+  <div class="link">
+    <a href="https://sites.google.com/view/hydrams/">hydra</a>
+  </div>
+</div>
+<div class="project">
+  <div class="img">
+    <a href="https://p2pvpn.deepspacelab.dev/"><img style="margin-top:10px;" src="./images/p2p-vpn.svg"></a>
+  </div>
+  <div class="link">
+    <a href="https://p2pvpn.deepspacelab.dev/">p2p-vpn</a>
+  </div>
+</div>
+</div>
+</div>
+</body>
+</html>

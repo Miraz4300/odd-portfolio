@@ -7,37 +7,29 @@
 	letter-spacing:8px;
 	font-smooth: never;
 	-webkit-font-smoothing: none;
-	/*-moz-osx-font-smoothing: grayscale;*/
-	
+	/*-moz-osx-font-smoothing: grayscale;*/	
 	}
 	
 body {
 	background-color:black;
 	color:#c1b492;
-
 	}
-
 
 .darker {
 		position:relative;
 		width:100%;
 		height:100%;
 		background-image:url(../images/darker.gif);
-		animation: darkestDown 80s linear infinite;
-		
+		animation: darkestDown 80s linear infinite;		
 		}
-
-
 		
 .dark {
 		position:relative;
 		width:100%;
 		height:100%;
 		background-image:url(../images/dark-anim.gif);
-		animation: darkest 60s linear infinite;
-		
+		animation: darkest 60s linear infinite;		
 		}
-
 		
 .opacity  {
 			position:relative;
@@ -45,13 +37,11 @@ body {
 			height:100%;
 			background-color:rgba(0,0,0,0.0);
 			animation: opacityBg 0.3s linear forwards;
-			animation-delay:0.6s;
-		
-			}		
+			animation-delay:0.5s;		
+			}			
 	
 a {
-	text-decoration:none;
-	
+	text-decoration:none;	
 	}
 	
 a:link {
@@ -82,8 +72,7 @@ a:active {
 	margin-top:0px;
 	box-shadow:black 0px 5px 10px;
 	text-align:center;
-	padding-top:40px;
-	
+	padding-top:40px;	
 	}
 	
 h1 {
@@ -94,36 +83,29 @@ h1 {
 	}
 	
 h6 {
-	font-size:9px;
-	
+	font-size:9px;	
 	}
 	
 .intro {
-	font-size:9px;
-	
+	font-size:9px;	
 	}
 	
 .copy {
-	font-size:11px;
-	
+	font-size:11px;	
 	}
 	
 .mail {
-	font-size:9px;
-	
+	font-size:9px;	
 	}
 	
 .logo {
-	margin:20px;
-	
-	
+	margin:20px;		
 	}
 	
 #navline {
 	font-size:13px;
 	letter-spacing:8px;
-	margin-bottom:20px;
-	
+	margin-bottom:20px;	
 	}
 	
 .blinkFrame {
@@ -131,67 +113,14 @@ h6 {
 	float:left;
 	width:400px;
 	font-weight:bolder;
-
-	
 	}
-	
-	
+
 hr {
 	
-	border-color:#d2738a;
-	border-bottom-width:2px;
-	
-	
-	
-	}
-	
-	
-.article {
-	width:800px;
-	background-color:black;
-	height:auto;
-	margin-left:auto;
-	margin-right:auto;
-	margin-top:40px;
-	box-shadow:black 0px 5px 10px;
-	text-align:center;
-	letter-spacing:8px;
-	font-size:13px;
-	padding-top:20px;
+		border-color:#d2738a;
+		border-bottom-width:2px;
+		}	
 
-	
-	}
-	
-.article p {
-	margin:20px;
-	font-size:13px;
-
-	
-	}
-	
-.date {
-	font-size:9px;
-	line-height:0px;
-	margin:0px;
-	
-	}
-.author {
-	font-size:13px;
-	line-height:40px;
-	margin:0px;
-	
-	}
-	
-h5 {
-	font-weight:normal;
-	}
-	
-b {
-	color:#d2738a;
-	font-weight:normal;
-	
-	}
-	
 #footer {
 	margin-top:200px;
 	color:#d2738a;
@@ -204,9 +133,7 @@ b {
 	
 #footer span {
 	background-color:black;
-	padding:3px;
-	
-	
+	padding:3px;		
 	}
 
 #footer a {
@@ -216,71 +143,49 @@ b {
 	
 #note {
 	letter-spacing:0px;
-	}
-	
-.article .comment {
-	font-size:9px;
-	}
-	
-.jap {
-	font-smooth: auto !important;
-	-webkit-font-smoothing : auto !important;
-	
-	}
-	
-		
+	}		
 
 .del1s {
 	animation: blink 2s linear infinite;
 	animation-delay: 0s;
-	letter-spacing:0px
-	
+	letter-spacing:0px	
 	}	
 	
 .del1s5ms {
 	animation: blink 2s linear infinite;
 	animation-delay: 0.4s;
-	letter-spacing:0px
-	
+	letter-spacing:0px	
 	}	
 	
 .del2s {
 	animation: blink 2s linear infinite;
 	animation-delay: 0.8s;
-	letter-spacing:0px
-	
+	letter-spacing:0px	
 	}
 	
 	
 .del4s {
 	animation: blink 2s linear infinite;
 	animation-delay: 1.2s;
-	letter-spacing:0px
-	
+	letter-spacing:0px	
 	}	
 	
 .del5s {
 	animation: blink 2s linear infinite;
 	animation-delay: 1.6s;
-	letter-spacing:0px
-	
+	letter-spacing:0px	
 	}	
 
 .del6s {
 	animation: blink 2s linear infinite;
 	animation-delay: 2s;
-	letter-spacing:0px
-	
+	letter-spacing:0px	
 	}	
 
 .blink {
   animation: blink 2s linear infinite;
 }
 
-.Bfast {
-	  animation: blink 2s ease-out infinite;
-
-	}
 	
 .oddAnimation {
 		  animation: wiredB 2s ease-in-out infinite;
@@ -300,6 +205,7 @@ b {
 	animation: wiredB 2s ease-in-out infinite;
 	animation-delay: 1.2s;	
 	}
+
 	
 @keyframes blink {
   50% {
@@ -307,14 +213,14 @@ b {
   }
  }
  
- @keyframes wiredB {
+@keyframes wiredB {
   50% {
 	  color:#d2738a;
 	  text-shadow:#d2738a 1px 4px 5px;
 	  }
  }
  
- @keyframes wiredB2 {
+@keyframes wiredB2 {
   50% {
 	  color:#c1b492;
 	  text-shadow:#c1b492 1px 1px 6px;
@@ -322,7 +228,7 @@ b {
  }
 
 
- @keyframes darkest {
+@keyframes darkest {
 	from {
 		background-position-y:1024px;
 	}
@@ -332,7 +238,7 @@ b {
    }
    
    
-  @keyframes darkestDown {
+@keyframes darkestDown {
 	from {
 		background-position-y:-1024px;
 	}
@@ -342,7 +248,7 @@ b {
    }
    
    
-   @keyframes opacity {
+@keyframes opacity {
 	from {
 		opacity:0;
 	}
@@ -351,7 +257,7 @@ b {
 		}
    }
    
-   @keyframes opacityBg {
+@keyframes opacityBg {
 	from {
 	  background-color:rgba(0,0,0,0.0);
 	}
@@ -360,7 +266,7 @@ b {
 		}
    }
    
-   @keyframes opacityBG{
+@keyframes opacityBG{
 	0%{opacity:0;}
 	50%{opacity:1;}
 	100%{opacity:0;}

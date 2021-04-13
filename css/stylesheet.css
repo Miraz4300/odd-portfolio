@@ -12,12 +12,42 @@
 	}
 	
 body {
-	background-image:url(../images/pixel.gif);
-	background-color:#d2738a;
-	color:#c1b492;	
+	background-color:black;
+	color:#c1b492;
 
-	
 	}
+
+
+.darker {
+		position:relative;
+		width:100%;
+		height:100%;
+		background-image:url(../images/darker.gif);
+		animation: darkestDown 80s linear infinite;
+		
+		}
+
+
+		
+.dark {
+		position:relative;
+		width:100%;
+		height:100%;
+		background-image:url(../images/dark-anim.gif);
+		animation: darkest 60s linear infinite;
+		
+		}
+
+		
+.opacity  {
+			position:relative;
+			width:100%;
+			height:100%;
+			background-color:rgba(0,0,0,0.0);
+			animation: opacityBg 0.3s linear forwards;
+			animation-delay:0.6s;
+		
+			}		
 	
 a {
 	text-decoration:none;
@@ -49,7 +79,7 @@ a:active {
 	height:auto;
 	margin-left:auto;
 	margin-right:auto;
-	margin-top:40px;
+	margin-top:0px;
 	box-shadow:black 0px 5px 10px;
 	text-align:center;
 	padding-top:40px;
@@ -290,3 +320,48 @@ b {
 	  text-shadow:#c1b492 1px 1px 6px;
 	  }
  }
+
+
+ @keyframes darkest {
+	from {
+		background-position-y:1024px;
+	}
+	to {
+		 background-position-x:-1024px;
+		}
+   }
+   
+   
+  @keyframes darkestDown {
+	from {
+		background-position-y:-1024px;
+	}
+	to {
+		 background-position-x:1024px;
+		}
+   }
+   
+   
+   @keyframes opacity {
+	from {
+		opacity:0;
+	}
+	to {
+		opacity:1;
+		}
+   }
+   
+   @keyframes opacityBg {
+	from {
+	  background-color:rgba(0,0,0,0.0);
+	}
+	to {
+	  background-color:rgba(0,0,0,0.6);
+		}
+   }
+   
+   @keyframes opacityBG{
+	0%{opacity:0;}
+	50%{opacity:1;}
+	100%{opacity:0;}
+  }

@@ -30,6 +30,15 @@ body {
 		background-image:url(../images/dark-anim.gif);
 		animation: darkest 60s linear infinite;		
 		}
+
+.line-bg {
+	    float:left
+	    position:relative;
+		width:100%;
+		height:100%;
+		background-image:url(../images/line-bg.gif);
+		animation: slide 5s linear infinite;
+}		
 		
 .opacity  {
 			position:relative;
@@ -271,3 +280,12 @@ hr {
 	50%{opacity:1;}
 	100%{opacity:0;}
   }
+
+@keyframes slide {
+    from{
+        background-position:-100px;
+    }
+    to{
+        background-position:100px;
+    }
+} 

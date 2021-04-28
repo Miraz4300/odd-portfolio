@@ -1,0 +1,85 @@
+body {
+    font-family: monospace;
+    background-color: black;
+    color: white;
+  }
+  h1 {
+    margin-left: 2ex;
+  }
+  a:link {
+    color: cyan;
+  }
+  a:visited {
+    color: magenta;
+  }
+  .header h1 {
+    margin-right: 2ex;
+  }
+  .section {
+    display: relative;
+    min-height: 20ex;
+    margin-bottom: 2em;
+  }
+  .section .label {
+    transform: rotate(-90deg) translate(-10ex,-10ex);
+    width: 20ex;
+    margin-left: 0.5em;
+    margin-top: 1em;
+    background-color: purple;
+    text-align: center;
+  }
+  .section .label a:link, .section .label a:visited {
+    color: white;
+    text-decoration: none;
+  }
+  .section .sublabel {
+    background-color: teal;
+    color: purple;
+  }
+  .section .content {
+    margin-left: 1.5em;
+  }
+  .section .content .project {
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    vertical-align: top;
+    margin-bottom: 1em;
+    margin-top: -9px;
+    border: 1px solid transparent;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .section .content .project .img {
+    height: 80px;
+  }
+  .section .content .project .img img {
+    width: 120px;
+  }
+  .section .content .project .link a:link, .section .content .project .link a:visited {
+    background-color: #509;
+    padding: 5px;
+    text-decoration: none;
+  }
+  .section .cv {
+    min-height: 20ex;
+  }
+  .section .cv li {
+    margin-bottom: 0.5em;
+  }
+  .section .cv.employment li {
+    margin-bottom: 2em;
+  }
+  .section .cv .desc {
+    margin-left: 2ex;
+    margin-top: 0.3em;
+    color: cyan;
+  }
+  .section .cv .tech {
+    display: inline-block;
+    margin-left: 2ex;
+    background-color: purple;
+    color: white;
+    padding: 0.5ex;
+    margin-top: 0.5em;
+  }

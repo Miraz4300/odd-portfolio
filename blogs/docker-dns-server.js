@@ -11,7 +11,7 @@ written permission of Adobe.
 /* Control the default view mode */
 const viewerConfig = {
     /* Allowed possible values are "FIT_PAGE", "FIT_WIDTH" or "" */
-    defaultViewMode: "",
+    defaultViewMode: "FIT_PAGE",
 };
 
 /* Wait for Adobe Document Services PDF Embed API to be ready */
@@ -45,7 +45,7 @@ document.addEventListener("adobe_dc_view_sdk.ready", function () {
         /* Pass meta data of file */
         metaData: {
             /* file name */
-            fileName: "Bodea Brochure.pdf"
+            fileName: "Docker DNS Server.pdf"
         }
     }, viewerConfig);
 });
